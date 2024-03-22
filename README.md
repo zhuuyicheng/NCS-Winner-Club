@@ -20,7 +20,8 @@ Additionally, Noah utilizes natural language processing (NLP) and machine learni
 Leveraging the fine-tuned model for your applications is straightforward. Follow the steps below to integrate and utilize the model effectively:
 
 ### Step 1: Cloning Code from Git, and Installing Dependencies
-Ensure you have Python and the necessary libraries installed. If you do not have pip installed on your system, follow this guide to install it: https://pip.pypa.io/en/stable/installation/
+Ensure you have Python and the necessary libraries installed. If you do not have pip installed on your system, follow this guide to install it: https://pip.pypa.io/en/stable/installation/.
+
 You will need all the libraries within the requirements.txt file, which can be installed via pip:
 
 ```bash
@@ -35,6 +36,8 @@ pip install requirements.txt
 Ensure you download the DataExtractorLLM (updated model) as well as the Llama model into the same directory as Noah.py.
 
 Download link for DataExtractorLLM: <a href="https://huggingface.co/Zqbot1/Gobbler/resolve/main/DataExtractorLLM.zip?download=true">DataExtractorLLM (2GB)</a>
+
+* Make sure to unzip the folder and move it into the Gobbler folder with Noah.py.
 
 Download link for Llama model: <a href="https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q4_K_M.gguf">Llama (4GB)</a>
 
