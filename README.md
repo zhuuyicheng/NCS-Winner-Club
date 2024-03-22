@@ -20,7 +20,8 @@ Additionally, Noah utilizes natural language processing (NLP) and machine learni
 Leveraging the fine-tuned model for your applications is straightforward. Follow the steps below to integrate and utilize the model effectively:
 
 ### Step 1: Cloning Code from Git, and Installing Dependencies
-Ensure you have Python and the necessary libraries installed. You will need all the libraries within the requirements.txt file, which can be installed via pip:
+Ensure you have Python and the necessary libraries installed. If you do not have pip installed on your system, follow this guide to install it: https://pip.pypa.io/en/stable/installation/
+You will need all the libraries within the requirements.txt file, which can be installed via pip:
 
 ```bash
 git clone https://github.com/aldensiol/Gobbler.git
